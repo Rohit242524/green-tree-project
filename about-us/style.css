@@ -138,43 +138,42 @@ a{
     color:white;
     width:330px;
     text-align:center;
-}
-.planting-education-advocacy-container{
-    display:grid;
-    grid-template-rows:415px 415px 415px;
-    grid-template-columns:312px;
-    row-gap:65px;
-    margin:auto;
-}
-.tree-planting-initiative-container,.education-and-training-container,.advocacy-and-campaigning-container{
-    background-color:white;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    gap:33px;
-    padding:0px 34.5px 32px 35.5px;
-}
-.tree-planting-initiative-image>img,.education-and-training-image>img,.advocacy-and-campaigning-image>img{
-    width:248px;
-}
-.tree-planting-initiative-image,.education-and-training-image,.advocacy-and-campaigning-image{
-    margin-top:-33px;
-    }
-.tree-planting-initiative-topic-box,.education-and-training-topic-box,.advocacy-and-campaigning-topic-box{
-    text-align:center;
-    display:flex;
-    flex-direction:column;
-    gap:22px;
-}
-.tree-planting-initiative-topic,.education-and-training-topic,.advocacy-and-campaigning-topic{
     font-weight:bold;
-    font-size:18px;
-
 }
-.about-tree-planting-initiative,.about-education-and-training,.about-advocacy-and-campaigning{
+.values-container{
+    display:grid;
+    grid-template-rows:repeat(4, 150px);
+    grid-template-columns:144px 144px;
+    row-gap:30px;
+    column-gap:18px;
+    justify-content:center;
+}
+.common-values-container{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+    color:#C1F7D5;
+}
+.values-icon{
+    width:38.75px;
+    height:40px;
+    font-size:35px;
+    text-decoration:none;
+}
+.values-topic{
+    font-size:16px;
+    font-weight:bold;
+    color:white;
+}
+.values-common-para{
     font-size:14px;
-    width:242px;
+    color:white;
 }
+
+
+
+
+
 
 
 
@@ -248,6 +247,35 @@ a{
     text-align:start;
 }
 
+    /*mission-and-values*/
+
+.mission-and-values-container{
+    padding:64px 29px 49px 64px;
+    gap:60px;
+}
+.mission-title-container{
+    width:675px;
+    gap:32px;
+}
+.mission-heading{
+    align-self:start;
+}
+.about-mission{
+    text-align:start;
+    align-self:start;
+    width:675px;
+    font-size:29px;
+}
+.values-container{
+    grid-template-columns:repeat(3,192px);
+    grid-template-rows:repeat(3,163px);
+    row-gap:20px;
+    column-gap:32px;
+
+}
+.values-topic{
+    font-size:22px;
+}
 
 }
 
@@ -324,8 +352,47 @@ a{
         text-align:start;
     }
 
+    /*mission-and-values*/
 
-64
+.mission-and-values-container{
+    padding:148px 158px 129px 160px;
+    gap:100px;
+}
+.mission-title-container{
+    width:1122px;
+}
+.mission-heading{
+    align-self:start;
+}
+.about-mission{
+    text-align:start;
+    align-self:start;
+    width:1122px;
+    font-size:44px;
+}
+
+.values-container{
+    grid-template-columns:repeat(4,256px);
+    grid-template-rows:repeat(2,182px);
+    row-gap:60px;
+}
+.common-values-container{
+    gap:17px;
+}
+.values-icon{
+    width:53.85px;
+    height:56px;
+    font-size:50px;
+}
+.values-topic{
+    font-size:28px;
+}
+.values-common-para{
+    font-size:16px;
+}
+
+
+
     }
 
 
